@@ -1,13 +1,21 @@
-import java.util.Scanner;
-
 public class Student
 {
-    int sID;
-    String sName;
-    
-    public Student(String name, int id)
+	private int studentId;
+    private String studentName;
+
+    public Student(String studentName, int studentId)
     {
-        this.sName = name;
-        this.sID = id;
+        this.studentName = studentName;
+        this.studentId = studentId;
+    }
+
+    public int getStudentId()
+    {
+        return studentId;
+    }
+
+    public String getStudentName()
+    {
+        return studentName;
     }
 }
