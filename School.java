@@ -15,8 +15,10 @@ public class School
     public String findStudent(String teacherName, int studentId)
     {
         Classroom classroom = null;
-        for (Classroom cls : classrooms) {
-            if (cls.getTeacherName().equals(teacherName)) {
+        for (Classroom cls : classrooms)
+        {
+            if (cls.getTeacherName().equals(teacherName))
+            {
                 classroom = cls;
                 break;
             }
